@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    const texts = ["Data Scientist", "AI Enthusiast", "LLMs", "Automation"];
+    const texts = ["Data Scientist", "AI Enthusiast", "LLMs", "Automation", "Growth Analyst"];
     let index = 0;
     const carouselText = document.getElementById("carousel-text");
 
