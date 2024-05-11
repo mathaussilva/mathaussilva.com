@@ -169,6 +169,38 @@ section {
     height: 80vh;
 }
 
+.carousel-container {
+    overflow: hidden;
+    height: 4em; /* Adjust based on your text size */
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#carousel-text {
+    display: inline-block;
+    animation: slide-up 2s infinite;
+    color: blue;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    90% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
 .section__pic-container {
     display: flex;
     height: 400px;
