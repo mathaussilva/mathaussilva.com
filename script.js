@@ -5,6 +5,20 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
+function sendMail() {
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    var subject = "Contact Form Submission";
+
+    var link = "mailto:hello@mathaussilva.com"
+             + "?cc=" + encodeURIComponent(email)
+             + "&subject=" + encodeURIComponent(subject)
+             + "&body=" + encodeURIComponent(message);
+    
+    window.location.href = link;
+}
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const texts = ["Data Scientist", "AI Enthusiast", "LLMs", "Automation", "Growth Analyst"];
     let index = 0;

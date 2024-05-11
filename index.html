@@ -155,14 +155,14 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
                             <div>
-                                <h3>SQL</h3>
+                                <h3>Llama</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
                             <div>
-                                <h3>R</h3>
+                                <h3>Proof of Concept</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
@@ -233,11 +233,10 @@
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
     </section>
     <section id="contact">
-        <p class="section__text_p1">Need help building your AI apps?</p>
-        <h1 class="title">Tell me about your AI ideas</h1>
-        <form id="contact-form" action="mailto:hello@mathaussilva.com" method="POST" enctype="text/plain">
+        <h1 class="title">Need help building your AI apps?</h1>
+        <form id="contact-form" onsubmit="sendMail(); return false;">
             <div class="form-group" id="email-group">
-                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
             </div>
             <div class="form-group">
                 <textarea id="message" name="message" rows="5" placeholder="Message" maxlength="2000" required></textarea>
