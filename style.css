@@ -257,6 +257,7 @@ section {
 
 .btn {
     margin-top: 2rem;
+    font-size: 12px;
     font-weight: 500;
     transition: all 300ms ease;
     padding: 1rem;
@@ -397,7 +398,7 @@ article .icon {
 }
 
 .project-img {
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 50%;
     height: 50%;
 }
@@ -458,7 +459,10 @@ textarea:focus {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 300ms ease;
+    width: 5rem;
 }
 
 .send-button:hover {
