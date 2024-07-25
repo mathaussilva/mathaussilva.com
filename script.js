@@ -20,7 +20,7 @@ function sendMail() {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    const texts = ["Data Scientist", "AI Enthusiast", "LLMs", "Automation", "Growth Analyst"];
+    const texts = ["Data Scientist", "AI Enthusiast", "Machine Learning", "Data Manager", "Data Analyst", "Growth Analyst"];
     let index = 0;
     const carouselText = document.getElementById("carousel-text");
 
